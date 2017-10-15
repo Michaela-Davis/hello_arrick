@@ -1,26 +1,27 @@
 {
-  "title" : "Great Stayton Oregon Dentist - Dr. B.C. Nelson",
-  "description" : "Dr. B.C. Nelson is one of Staytons’s most loved dentists. Join us for a $45 Limited Time New Patient Special Offer. Read our patient reviews!",
-  "keywords" : "b.c. nelson dds,  dr. b.c. nelson, stayton oregon dentist, stayton dentist, stayton cosmetic dentist, stayton general dentist, stayton family dentist, crowns, same day crowns, dental implants, implant dentistry, custom dentures, porcelain crowns, porcelain veneers, porcelain bridges",
-  "mainDoctor" : "Dr. B.C. Nelson",
-  "newPhone" : "+18882216431",
-  "newPhoneNoBreak" : "(888)&nbsp;221-6431",
-  "existingPhone" : "+15037695210",
-  "existingPhoneNoBreak" : "(503)&nbsp;769-5210",
-  "addressFirst" : "470 E. Washington Street",
-  "addressLast" : "Stayton, OR 97383",
-  "birdeye" : "147887240715787",
-  "birdeyeScript" : "https://birdeye.com/widget/render.php?bid=147887240715787&amp;wid=3&amp;ver=4",
-  "insuranceLink" : "https://bc-nelson-dds.illumitrac.com/#programs",
-  "googleMap" : "https://www.google.com/maps/place/BC+Nelson+DDS,+Dentist/@44.800611,-122.790483,12z/data=!4m5!3m4!1s0x0:0xeb17380c06c58462!8m2!3d44.800611!4d-122.790483?hl=en-US",
+  "title" : "Great Raleigh North Carolina Dentist - Dr. Cadice Arrick",
+  "description" : "Dr. Candice Arrick is one of Raleigh’s most loved dentists. Join us for a $45 Limited Time New Patient Special Offer. Read our patient reviews!",
+  "keywords" : "candice arrick dds,  dr. candice arrick, raleigh noth carolina dentist, raleigh dentist, raleigh cosmetic dentist, raleigh general dentist, raleigh family dentist, crowns, dental implants, implant dentistry, custom dentures, porcelain crowns, porcelain veneers, porcelain bridges",
+  "mainDoctor" : "Dr. Cadice Arrick",
+  "newPhone" : "+18889185426",
+  "newPhoneNoBreak" : "(888)&nbsp;918-5426",
+  "existingPhone" : "+19198338100",
+  "existingPhoneNoBreak" : "(919)&nbsp;833-8100",
+  "addressFirst" : "601 Tucker St., Raleigh, NC 27603",
+  "addressLast" : "",
+  "birdeye" : "2573342246",
+  "birdeyeScript" : "https://birdeye.com/embed/v4/150211672052229/3/2573342246",
+  "insuranceLink" : "https://smiles-by-glenwood.illumitrac.com/#programs",
+  "careCreditLink" : "https://www.carecredit.com/doctor-locator/Endodontics-in-RALEIGH-NC-27603/Smiles-at-Glenwood/",
+  "googleMap" : "https://www.google.com/maps/",
   "socialMediaLinks": [
     {
       "media": "facebook",
-      "link": "https://www.facebook.com/BCNelsonDDS/"
+      "link": "https://www.facebook.com/pg/smilesatglenwood/reviews/?ref=page_internal"
     },
     {
       "media": "google-plus",
-      "link": "https://www.google.com/maps/place/BC+Nelson+DDS,+Dentist/@44.800611,-122.7926717,17z/data=!3m1!4b1!4m7!3m6!1s0x0:0xeb17380c06c58462!8m2!3d44.800611!4d-122.790483!9m1!1b1?hl=en-US"
+      "link": "https://www.google.com/search?q=smiles+at+glenwood+raleigh+nc&gs_l=serp.3..0.5467.9694.0.9836.29.25.0.0.0.0.222.2848.7j13j1.21.0....0...1.1.64.serp..8.21.2847...0i131k1j0i67k1j0i22i30k1j0i22i10i30k1.jqab6fAfIsU#lrd=0x89ac5f66505c3933:0x180f1b8d0577fd0,1,"
     }
   ]
 }
