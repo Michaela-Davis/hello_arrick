@@ -1,0 +1,50 @@
+#section-gallery {
+  padding: 25px 0;
+
+  .heading {
+    &__title {
+      margin-bottom: 0;
+      margin-top: 15px;
+      line-height: 1;
+    }
+
+    &__byline {
+      color: #353535;
+      padding-bottom: 15px;
+    }
+  }
+
+  .galleryCard {
+    &__title {
+      margin-bottom: 7px;
+      margin-top: 15px;
+      line-height: 1;
+      color: #2e4a6f;
+    }
+
+    &__learnMore {
+      color: #4f8e00;
+      text-decoration: underline;
+      line-height: 1;
+      margin-bottom: 0;
+    }
+  }
+
+  .owl-carousel .owl-nav [class*=owl-] {
+    top: 45%;
+  }
+
+  .owl-carousel .owl-nav [class*=owl-],
+  .owl-carousel:hover .owl-nav .owl-next {
+    opacity: 1;
+  }
+
+  .full-width-wrapper {
+    position: relative;
+  }
+
+  .gallery--full-width,
+  .owl-carousel {
+    position: static !important;
+  }
+}

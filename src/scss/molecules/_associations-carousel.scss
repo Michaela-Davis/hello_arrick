@@ -1,0 +1,15 @@
+.associations-carousel {
+  @media (min-width: 1200px) {
+    padding: 10px 0;
+  }
+
+  .logo-wrapper {
+    text-align: center;
+  }
+
+  img {
+    max-width: 180px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
