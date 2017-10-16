@@ -21,7 +21,7 @@
   ============================================= -->
   <div id="content" >
 
-        {# {% include 'molecules/cta__two-to-one.twig' with {
+        {% include 'molecules/cta__two-to-one.twig' with {
             id: 'cta-one',
             existingPatients: 'true'
          } %}
@@ -40,12 +40,24 @@
 
         {% include 'organisms/services.twig' %}
 
-        {% include 'molecules/cta__two-to-one.twig' with {
-            id: 'cta-three',
-            existingPatients: 'true'
-         } %} #}
+        <div class="cta " id="cta-three">
+            <div class="container center">
+                <div class="flex-wrapper">
+                    <div class="cta__btn flex-wrapper__item">
+                        <a href="#" class="btn btn cta-btn" data-target="#requestAppointmentForm" data-toggle="modal">Request an Appointment</a>
+                    </div>
+                    <div class="cta__new flex-wrapper__item">
+                        <h5 class="cta__new-text allow-orphan">New Patient Hotline</h5>
+                        <h2 class="cta__new-number allow-orphan">
+                            <a href="tel:+18889185426" class="phone-number phone-number--new">(888)&nbsp;918-5426</a></h2>
+                    </div>
+                </div>
+                <p class="cta__existing-patient hidden-sm hidden-md hidden-lg">Existing Patients Call:<br> <a href="tel:+19198338100" class="phone-number phone-number--existing">(919)&nbsp;833-8100</a></p>
+                <p class="cta__existing-patient hidden-xs">Existing Patients Call:  <a href="tel:+19198338100" class="phone-number phone-number--existing">(919)&nbsp;833-8100</a></p>
+            </div>
+        </div>
 
-        {# {% include 'organisms/reviews.twig' %} #}
+        {% include 'organisms/reviews.twig' %}
 
         {% include 'organisms/forms.twig' %}
 

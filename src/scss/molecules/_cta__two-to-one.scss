@@ -2,13 +2,15 @@
 .cta {
   position: relative;
   z-index: 100;
-  background-color: #e8f0f3;
+  background-color: #6c54a3;
   background-position: center;
-  padding: 5px 0 15px;
+  padding: 0 0 15px;
+  border-top: 2px solid white;
+  border-bottom: 2px solid white;
 
-  // &.shadow {
-  //   box-shadow: 0 1px 6px rgba(0, 0, 0, 0.5);
-  // }
+  @media (min-width: 768px) {
+    padding: 15px 0;
+  }
 
   &--background-two {
     background-color: #e4f3e9;
@@ -45,11 +47,11 @@
     }
 
     &__item {
-      padding: 10px 0;
+      padding: 5px 0;
       width: 100%;
 
       @media screen and (min-width: 768px) {
-        padding: 0 45px;
+        padding: 0 15px;
         width: 49%;
 
         &.cta__btn,
@@ -71,17 +73,19 @@
   &__new {
     &-text {
       font-family: $ff-lato;
-      color: #2e2e2e;
+      color: #fff;
       margin-bottom: 0;
       font-weight: 400;
+      line-height: 1;
+      padding-top: 5px;
 
-      @include font-size(24px, 22px, 20px, 18px, 16px);
+      @include font-size(24px, 23px, 23px, 21px, 21px);
     }
 
     &-number {
-      color: #2e2e2e;
-      font-family: $ff-lato;
-      font-weight: 900;
+      color: #fff;
+      font-family: $ff-mont;
+      font-weight: 700;
       line-height: 1;
       margin-bottom: 0;
       padding: 5px 0 0;
@@ -90,10 +94,10 @@
         padding: 5px 0 10px;
       }
 
-      @include font-size(36px, 34px, 32px, 28px, 26px);
+      @include font-size(33px, 32px, 32px, 30px, 30px);
 
       a {
-        @include link-color(#2e2e2e);
+        @include link-color(#fff);
 
         &:hover {
           text-decoration: none;
@@ -103,20 +107,19 @@
   }
 
   &__existing-patient {
-    color: #000;
-    line-height: 1.7;
+    color: #fff;
+    line-height: 1.1 !important;
     margin-bottom: 0;
-    font-weight: 700;
 
-    @include font-size(20px, 20px, 16px, 14px, 14px);
+    @include font-size(18px, 18px, 16px, 16px, 16px);
 
     @media (max-width: 992px) {
       text-align: center;
     }
 
     .phone-number--existing {
-      @include link-color(#000);
-      @include font-size(20px, 20px, 20px, 18px, 18px);
+      @include link-color(#fff);
+      @include font-size(18px, 18px, 16px, 16px, 16px);
 
       &:hover {
         text-decoration: none;
