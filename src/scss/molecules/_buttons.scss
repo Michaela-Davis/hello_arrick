@@ -1,14 +1,14 @@
 a.btn,
 button.btn {
-  font-family: $ff-lato;
-  font-weight: 900 !important;
+  font-family: $ff-mont;
+  // font-weight: 900 !important;
   background-color: #6fba11;
   color: #fff;
   // border: solid 2px #fff;
   padding: 10px 40px;
-  text-transform: uppercase;
+  // text-transform: uppercase;
   border-radius: 8px;
-  box-shadow: 0 3px rgba(77, 135, 4, 1);
+  // box-shadow: 0 3px rgba(77, 135, 4, 1);
   font-size: 14px;
 
   &:hover,
@@ -37,15 +37,14 @@ button.btn {
 
   &.btn--style-three {
     background-image: none;
-    background-color: #bcd0dd;
-    border: solid 2px #fff;
-    color: #44494b;
+    background-color: #fff;
+    border: solid 2px #6c54a3;
+    color: #6c54a3;
     // box-shadow: 0 3px rgba(25, 50, 82, 1);
 
     &:hover,
     &:focus {
-      background-color: darken(#bcd0dd, 25%);
-      border: solid 2px #fff;
+      background-color: lighten(#6c54a3, 35%);
       // box-shadow: 0 3px rgba(25, 50, 82, 1);
     }
   }
