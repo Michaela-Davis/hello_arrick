@@ -20,7 +20,7 @@
       //background-color: #323437;
       text-align: center;
       // padding-top: 90px;
-      padding-bottom: 20px;
+      padding-bottom: 5px;
 
       @media (max-width: $width-md) {
         background: none;
@@ -39,30 +39,41 @@
     text-align: center;
   }
 
+  &__doctor {
+    color: #6c54a3;
+    margin-bottom: 5px;
+
+    @include font-size(24px, 21px, 21px, 24px, 23px);
+
+    &--title {
+      color: #6c54a3 !important;
+    }
+  }
+
   &__address {
-    color: #000;
-    font-size: 20px;
+    color: #7a7780;
+    font-size: 18px;
     margin: 0;
-    font-family: $ff-open;
+    font-family: $ff-mont;
     font-weight: 400;
   }
 
   &__map-link {
-    color: #4d8704;
+    color: #e85382;
     text-decoration: underline;
-    font-size: 20px;
+    font-size: 16px;
     // letter-spacing: 1px;
     margin-bottom: 5px;
-    margin-top: 15px;
+    margin-top: 0;
     font-family: $ff-lato;
     font-weight: 400;
   }
 
   &__new-patient-text {
-    color: #000;
+    color: #6c54a3;
     margin-bottom: 0;
     line-height: 1;
-    font-family: $ff-lato;
+    font-family: $ff-mont;
     letter-spacing: -0.97px;
 
     @include font-size(24px, 24px, 24px, 24px, 23px);
@@ -72,12 +83,10 @@
     display: block;
     font-weight: 900;
     color: #2e2e2e;
-    font-family: $ff-lato;
-    margin-top: 5px;
-    margin-bottom: 5px;
+    font-family: $ff-mont;
     line-height: 1;
 
-    @include font-size(40px, 40px, 36px, 36px, 32px);
+    @include font-size(33px, 33px, 33px, 33px, 32px);
 
     &:hover {
       color: #2e2e2e;
@@ -86,17 +95,17 @@
   }
 
   &__existing-patient-text {
-    color: #2f1d0f;
-    margin-top: 15px;
+    color: #7a7780;
+    margin-top: 10px;
     line-height: 1;
-    font-family: $ff-open;
+    font-family: $ff-mont;
 
     @include font-size(18px, 18px, 17px, 16px, 16px);
   }
 
   &__existing-patient-number {
-    color: #000;
-    font-family: $ff-open;
+    color: #7a7780;
+    font-family: $ff-mont;
 
     @include font-size(18px, 18px, 17px, 16px, 16px);
 
@@ -115,27 +124,26 @@
   }
 
   &-btn {
-    margin-top: 15px;
+    margin-top: 0;
   }
 
   .hours-table {
-    padding: 20px 0;
+    padding: 15px 0;
 
     h5 {
       line-height: 1;
-      margin-bottom: 0;
-      font-weight: 700;
+      margin-bottom: 5px;
       font-size: 24px;
-      color: #2e2e2e;
+      color: #6c54a3;
       font-family: $ff-lato;
     }
 
     p {
-      color: #000;
+      color: #7a7780;
       line-height: 1;
       margin: 0 auto;
       font-family: $ff-lato;
-      font-size: 24px;
+      font-size: 18px;
     }
   }
 }

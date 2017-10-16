@@ -1,21 +1,12 @@
-#section-team-photo {
-  max-width: 100%;
-  height: auto;
-
-  @media (min-width: 1200px) {
-    background-position: center;
-  }
-}
-
 #section-location {
-  padding-bottom: 60px;
-  padding-top: 60px;
+  padding-bottom: 30px;
+  padding-top: 30px;
 }
 
 .location.location__two-column {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  align-items: center;
   justify-content: center;
 
   .location__map,
@@ -32,7 +23,7 @@
 
     .location__card--wrapper {
       width: 40%;
-      padding-right: 70px;
+      padding-right: 40px;
     }
 
     .location__map {
