@@ -1,7 +1,7 @@
 //Overrides for Canvas
 #footer {
   position: relative;
-  background-color: #157a9e;
+  background-color: #6c54a3;
   border-top: none;
 
   a {
@@ -33,7 +33,7 @@
   }
 
   .footer-padding {
-    padding: 50px;
+    padding: 10px;
 
     @media (max-width: $width-md) {
       padding: 20px;
@@ -42,14 +42,15 @@
 
   .text {
     @media (min-width: 768px) {
-      text-align: right;
+      text-align: left;
     }
   }
 
   .tyson-steele-text {
     font-weight: 400;
     color: #fff;
-    margin-bottom: 5px;
+    margin-bottom: 0;
+    padding-left: 15px;
   }
 
   .facebook-link {
@@ -72,6 +73,6 @@
   }
 
   .accessibility {
-    padding-left: 5px;
+    padding-left: 0;
   }
 }
