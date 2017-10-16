@@ -1,11 +1,11 @@
 #section-insurance {
-  $c-no-insurance: #fff;
-  $c-sub-header: #fff;
+  $c-no-insurance: #6c54a3;
+  $c-sub-header: #e85382;
   $c-preventative: #ea5034;
-  $c-copy: #fff;
-  $c-mobile-bg: #4e4e4e;
+  $c-copy: #000;
+  $c-mobile-bg: rgba(171, 156, 251, 0.3);
 
-  background-color: #157a9e;
+  background-color: rgba(171, 156, 251, 0.3);
   position: relative;
 
   .title {
@@ -15,9 +15,9 @@
     line-height: 1;
     color: $c-no-insurance;
     font-weight: 900;
-    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+    // text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
 
-    @include font-size(76px, 65px, 45px, 50px, 36px);
+    @include font-size(85px, 70px, 50px, 50px, 33px);
 
     &--mobile {
       padding-top: 20px;
@@ -25,21 +25,22 @@
   }
 
   .sub-title {
-    font-weight: 400;
+    font-weight: 700;
     color: $c-sub-header;
     margin-bottom: 0;
-    font-family: $ff-lato;
-    padding: 15px 0;
+    font-family: $ff-unna;
+    padding: 10px 0;
     line-height: 1;
+    font-style: italic;
 
-    @include font-size(42px, 30px, 25px, 30px, 22px);
+    @include font-size(57px, 46px, 34px, 30px, 20px);
   }
 
   .insurance__copy {
     color: $c-copy;
     line-height: 1.1;
 
-    @include font-size(28px, 22px, 18px, 16px, 14px);
+    @include font-size(28px, 22px, 17px, 16px, 14px);
 
     @media (min-width: 768px) {
       text-align: left;
@@ -51,6 +52,11 @@
     }
   }
 
+  .membershipClub {
+    color: #e85382;
+    font-weight: 700;
+  }
+
   .insurance__image {
     @media (min-width: 768px) {
       width: 100%;
@@ -58,8 +64,8 @@
   }
 
   .insurance-btn {
-    background-color: #fff;
-    color: #6fba11;
+    background-color: #6c54a3;
+    color: #fff;
     padding: 10px 70px;
     margin-bottom: 20px;
     margin-top: 0;
