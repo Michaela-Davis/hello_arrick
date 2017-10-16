@@ -15,13 +15,13 @@
     }
     %}
 
-    {% include 'organisms/marquee.twig' %}
+    {# {% include 'organisms/marquee.twig' %} #}
 
     <!-- Content
   ============================================= -->
   <div id="content" >
 
-        {% include 'molecules/cta__two-to-one.twig' with {
+        {# {% include 'molecules/cta__two-to-one.twig' with {
             id: 'cta-one',
             existingPatients: 'true'
          } %}
@@ -43,15 +43,17 @@
         {% include 'molecules/cta__two-to-one.twig' with {
             id: 'cta-three',
             existingPatients: 'true'
-         } %}
+         } %} #}
 
         {% include 'organisms/reviews.twig' %}
 
-        {% include 'organisms/smile-gallery.twig' %}
+        {# {% include 'organisms/forms.twig' %} #}
 
-        {% include 'organisms/tour.twig' %}
+        {# {% include 'organisms/smile-gallery.twig' %}
+
+        {% include 'organisms/tour.twig' %} #}
         
-        {% include 'organisms/location.twig' %}
+        {# {% include 'organisms/location.twig' %} #}
 
     </div>
 

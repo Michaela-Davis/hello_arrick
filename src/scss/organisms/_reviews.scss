@@ -1,29 +1,37 @@
 #section-reviews {
-  background-color: #157a9e;
+  background-color: #d2d5d2;
   border-bottom: none;
-  padding-bottom: 45px;
 
-  @media (min-width: 768px) {
-    background-image: url('/assets/reviews.png');
+  @media (min-width: 992px) {
+    background-image: url('/assets/reviews.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: top right;
+    padding-bottom: 45px;
   }
 
   .reviews-mobile {
-    margin-bottom: 15px;
+    margin-bottom: 0;
+  }
+
+  .reviews__byline {
+    font-family: $ff-unna;
+    line-height: 1;
+    font-style: italic;
+    color: #212121;
+    font-weight: 700;
+
+    @include font-size(24px, 24px, 30px, 17px, 16px);
   }
 
   .heading {
     padding-top: 0;
     text-align: center;
     margin-top: $spacing-md;
-    margin-bottom: 15px;
-    color: #fff;
-    font-weight: 900;
+    margin-bottom: 0;
     line-height: 1.5;
     font-style: normal;
-    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+    // text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
 
     @media screen and (min-width: 768px) {
       text-align: left;
@@ -45,21 +53,29 @@
   }
 
   iframe {
-    max-height: 350px;
+    max-height: 550px;
 
     @media screen and (min-width: 992px) {
       max-height: 550px;
     }
   }
 
-  @include birdeye-footer(#fff, false);
+  @include birdeye-footer(#000, false);
 
   .bf-dv {
     padding-left: 15px;
+    text-align: center;
+    padding-top: 10px;
+
+    @media (min-width: 992px) {
+      text-align: left;
+      padding-top: 30px;
+    }
   }
 
   .bf-spn {
     font-family: $ff-lato;
+    font-weight: 700;
 
     @include font-size(14px, 14px, 14px, 14px, 12px);
   }
