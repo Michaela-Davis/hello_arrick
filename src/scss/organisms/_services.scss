@@ -7,11 +7,31 @@
       margin-bottom: 0;
       margin-top: 25px;
     }
+
+    &__byline {
+      color: #898989;
+      font-style: italic;
+      font-weight: 700;
+      font-family: $ff-unna;
+    }
+  }
+
+  .purple-title {
+    color: #6c54a3;
+    font-weight: 900;
+    font-family: $ff-mont;
+    font-size: 27px;
+    line-height: 1;
+    margin-bottom: 10px;
+    margin-top: -15px;
   }
 
   .xs-text-beneath {
-    padding-bottom: 20px;
-    margin-top: -10px;
+    padding-bottom: 15px;
+    color: #888d91;
+    font-family: $ff-unna;
+    line-height: 1;
+    font-size: 18px;
 
     @media (min-width: 768px) {
       height: 280px;
@@ -21,22 +41,37 @@
   .white {
     color: #fff;
     line-height: 1.1;
-    font-size: 16px;
     padding-top: 7px;
     margin-bottom: 10px;
-  }
-
-  .cerec-p-width {
-    max-width: 45%;
-    padding-bottom: 5px;
+    font-family: $ff-unna;
 
     @media (min-width: 1200px) {
-      padding-bottom: 30px;
+      margin-bottom: 50px;
     }
+
+    @include font-size(18px, 17px, 17px, 40px, 30px);
   }
 
-  .implant-p-width {
-    max-width: 90%;
+  .invisalign {
+    color: #fff;
+    line-height: 1.1;
+    padding-top: 7px;
+    margin-bottom: 10px;
+    font-family: $ff-unna;
+
+    @media (min-width: 767px) {
+      margin-bottom: 100px;
+    }
+
+    @media (min-width: 992px) {
+      margin-bottom: 10px;
+    }
+
+    @media (min-width: 1200px) {
+      margin-bottom: 50px;
+    }
+
+    @include font-size(18px, 17px, 17px, 40px, 30px);
   }
 
   .card__text {
@@ -47,49 +82,15 @@
     padding: 10px 0;
   }
 
-  .top-right {
-    text-align: right;
-    padding-right: 45px;
-
-    @media (min-width: 768px) {
-      bottom: 190px;
-    }
-
-    @media (min-width: 992px) {
-      bottom: 100px;
-    }
-
-    @media (min-width: 1201px) {
-      bottom: 110px;
-    }
-  }
-
-  .center-left {
-    @media (min-width: 768px) {
-      bottom: 110px;
-      padding-left: 65px;
-    }
-
-    @media (min-width: 992px) {
-      bottom: 50px;
-      padding-left: 25px;
-    }
-
-    @media (min-width: 1201px) {
-      bottom: 80px;
-      padding-left: 35px;
-    }
-  }
-
   .feature__title {
     color: #fff;
     font-family: $ff-mont;
     font-weight: 900;
     line-height: 1;
     margin-bottom: 0;
-    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+    // text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
 
-    @include font-size(40px, 30px, 40px, 40px, 30px);
+    @include font-size(28px, 26px, 28px, 40px, 30px);
   }
 
   .card {
@@ -101,29 +102,31 @@
       line-height: 1;
       margin-bottom: 0;
       font-weight: 900;
-      text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+      // text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
 
-      @include font-size(30px, 24px, 40px, 40px, 30px);
+      @include font-size(30px, 24px, 28px, 28px, 27px);
     }
   }
 
   .card__link {
     text-decoration: underline !important;
     font-weight: 700;
-    color: #ff9a00;
+    color: #decfff;
     margin-bottom: 0;
     font-size: 18px;
+    font-style: italic;
+    font-family: $ff-unna;
 
     // @include font-size(17px, 16px, 14px, 15px, 14px);
   }
 
   .card__image--fix {
     @media screen and (min-width: 992px) {
-      height: 443px;
+      height: 205px;
     }
 
     @media screen and (min-width: 1200px) {
-      height: 540px;
+      height: 255px;
     }
   }
 }

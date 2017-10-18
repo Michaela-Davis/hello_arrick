@@ -2,12 +2,13 @@
   "services":[
     {
       "featured": false,
-      "title": "Smile Makeovers",
-      "titleMobile": "Makeovers",
-      "titleFull": "Smile Makeovers",
-      "image": "makeovers",
-      "modalTarget": "makeovers",
-      "text": ["Cosmetic dentistry is one of the most cost-effective ways to improve your appearance. A beautiful, bright, healthy smile will increase self-confidence and overall life satisfaction. Cosmetic dentistry includes things like tooth-colored restorations, dental implants, and crowns. We have many options, so please call us today!"]
+      "title": "Smile Whitening",
+      "titleMobil": "Whitening",
+      "titleFull": "Smile Whitening",
+      "image": "whitening",
+      "modalTarget": "whitening",
+      "text": ["Many everyday things like coffee, tea and wine can significantly dull teeth. Smile-whitening enables us to significantly brighten your smile for that dazzling white smile you deserve.",
+        "Plastic whitening trays will be made from models of your teeth. You will then place a special whitening gel in each tray and wear the trays in your mouth for several hours per day. (Many patients wear their trays after dinner and before bed.) A significant change in tooth color is usually seen in just four to six weeks."]
     },
     {
       "featured": false,
@@ -30,7 +31,17 @@
     },
     {
       "featured": false,
-      "title": "Care for the Whole Family ",
+      "title": "Crowns & Bridges",
+      "titleMobile": "Crowns & Bridges",
+      "titleFull": "Porcelain Crowns & Bridges",
+      "image": "crowns",
+      "modalTarget": "crowns",
+      "text": ["Protect and keep badly decayed or fractured teeth while maintaining a beautiful smile. Made to perfectly match the shape and shade of your other teeth, they’re durable, strong, and undetectable.",
+        "Crowns should be placed before the tooth is so decayed that it may fracture. This can often help prevent the expense of root canal therapy in the future. If a tooth is too damaged to have a crown applied, a porcelain bridge may be a good alternative."]
+    },
+    {
+      "featured": false,
+      "title": "Family Care",
       "titleMobile": "Family Care",
       "titleFull": "Care for the Whole Family",
       "image": "family",
@@ -40,21 +51,39 @@
     },
     {
       "featured": false,
-      "title": "Tooth Colored Restorations",
-      "titleMobile": "Restorations",
-      "titleFull": "Tooth Colored Restorations",
-      "image": "restorations",
-      "modalTarget": "restorations",
-      "text": ["The common silver filling contains mercury. Dr. Nelson uses the highest-quality biocompatible, tooth-colored restorations to create healthy, beautiful smiles.​ Since the composite material adheres directly to the tooth enamel, less preparation of the tooth is required before using it. This means it is more durable and provides a more natural-looking result."]
+      "title": "Implant Dentistry",
+      "titleMobile": "Implant Dentistry",
+      "titleFull": "Implant Dentistry",
+      "image": "implant",
+      "modalTarget": "implant",
+      "text": ["Dental implants are a great option for replacing missing teeth, improving chewing ability, eliminating bridges, and replacing dentures.",
+        "Several implants may provide a base for a series of artificial teeth known as a fixed bridge. Implants can even be used to secure a full set of removable dentures for people who have no remaining natural teeth."]
     },
     {
       "featured": false,
-      "title": "Cosmetic Dentures",
-      "titleMobile": "Dentures",
-      "titleFull": "Cosmetic Dentures",
-      "image": "dentures",
-      "modalTarget": "dentures",
-      "text": ["A well made denture is not only comfortable and functions properly; it also allows the wearer to smile with confidence, knowing that their smile is no different than it would be with natural teeth. Creating a cosmetic denture is really an art in the hands of a skilled dentist like Dr. Nelson."]
+      "title": "Digital X-Rays",
+      "titleFull": "Digital X-Rays",
+      "image": "digital-xrays",
+      "modalTarget": "digital-xrays",
+      "text": ["Our use of digital x-ray technology reduces your radiation exposure and eliminates the use of chemicals. It’s better for you and the environment.",
+        "It's also easy for you to see what the doctor sees. Your digital x-ray can be seen on a computer screen located next to your dental chair. This helps you understand your needs and make informed choices about your treatment."]
+    },
+    {
+      "featured": false,
+      "title": "Root Canals",
+      "titleFull": "Root Canals",
+      "image": "root-canals",
+      "modalTarget": "root-canals",
+      "text": ["Root canal therapy is an excellent way to save a tooth that would otherwise die and need to be removed. All teeth that have had root canal therapy must be protected with a crown. This is because teeth that have had the pulp removed are more susceptible to fracture."]
+    },
+    {
+      "featured": false,
+      "title": "Oral Surgery",
+      "titleMobile": "Oral Surgery",
+      "titleFull": "Oral Surgery",
+      "image": "surgery",
+      "modalTarget": "surgery",
+      "text": ["Oral and maxillofacial surgery provides advanced treatment for a wide variety of oral health issues, from routine wisdom tooth extraction or dental implant tooth replacement, to full-mouth reconstruction. Dr. Arrick is qualified to diagnose and treat facial pain and injuries, and oftentimes can rebuild bone structure with minimally invasive surgical techniques for optimal patient comfort."]
     }
   ]
 }
