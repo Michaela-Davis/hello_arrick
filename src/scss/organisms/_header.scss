@@ -1,8 +1,9 @@
 #header.full-header {
   $c-header: #fff;
   $c-menu-trigger: #444;
-  $nav-font: $ff-lato;
+  $nav-font: $ff-unna;
 
+  font-style: italic;
   width: 100%;
   height: 100px;
 
@@ -17,11 +18,12 @@
   #primary-menu > ul {
     margin-right: 0;
     border-right: none;
+    padding-right: 15px;
 
-    @include nav-color(#666, 400);
-    @include nav-color(#157a9e, 700, 1);
-    @include nav-color(#3caaa8, 700, 2);
-    @include nav-color(#50709a, 700, 3);
+    @include nav-color(#3c3c3c, 700);
+    @include nav-color(#3c3c3c, 700, 1);
+    @include nav-color(#3c3c3c, 700, 2);
+    @include nav-color(#3c3c3c, 700, 3);
   }
 
   #primary-menu-trigger {
@@ -54,6 +56,10 @@
 
   .icon-reorder {
     color: $c-menu-trigger;
+  }
+
+  .logo-image-wrapper {
+    padding: 0 10px;
   }
 
   #logo img {
@@ -104,31 +110,31 @@
 
         &:first-child:hover,
         &.current:first-child {
-          background-color: #157a9e;
+          // background-color: #157a9e;
 
           a {
-            color: #fff !important;
-            text-decoration: none !important;
+            text-decoration: underline !important;
+            color: #6c54a3 !important;
           }
         }
 
         &:nth-child(2):hover,
         &.current:nth-child(2) {
-          background-color: #3caaa8;
+          // background-color: #3caaa8;
 
           a {
-            color: #fff !important;
-            text-decoration: none !important;
+            text-decoration: underline !important;
+            color: #6c54a3 !important;
           }
         }
 
         &:nth-child(3):hover,
         &.current:nth-child(3) {
-          background-color: #50709a;
+          // background-color: #50709a;
 
           a {
-            color: #fff !important;
-            text-decoration: none !important;
+            text-decoration: underline !important;
+            color: #6c54a3 !important;
           }
         }
       }
@@ -154,14 +160,15 @@
 
   :not(.static-sticky) #primary-menu ul > li > a {
     // letter-spacing: 1px;
-    font-size: 13px;
+    font-size: 15px;
     padding: 0 4px;
     text-transform: none;
     transition: padding 0.3s ease;
-    font-family: $ff-lato;
+    font-family: $ff-unna;
 
     &:hover {
       text-decoration: underline !important;
+      color: #6c54a3;
     }
 
     @media (min-width: 1200px) {
@@ -186,6 +193,7 @@
 #logo img {
   height: 75px !important;
   transition: height 0.4s ease, opacity 0.3s ease;
+  padding: 0 10px;
 
   @media (max-width: $width-md) {
     height: 75px !important;
