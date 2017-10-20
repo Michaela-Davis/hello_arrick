@@ -29,7 +29,7 @@
     items: 2,
     loop: true,
     autoplay: true,
-    autoplaySpeed: 500,
+    autoplaySpeed: 1000,
     autoplayTimeout: 2000,
     autoplayHoverPause:false,
     autoWidth: false,
