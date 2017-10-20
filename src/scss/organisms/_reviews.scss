@@ -79,4 +79,11 @@
 
     @include font-size(14px, 14px, 14px, 14px, 12px);
   }
+
+  .bf-widget--wrapper {
+    @media (max-width: 767px) {
+      max-height: 500px !important;
+      overflow: auto !important;
+    }
+  }
 }
